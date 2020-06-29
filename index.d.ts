@@ -43,6 +43,16 @@ interface KeyboardAwareProps {
   }
 
   /**
+   * Whether Android adjustPan enable.
+   *
+   * Default iOS is false, android is true
+   *
+   * @type {boolean}
+   * @memberof KeyboardAwareProps
+   */
+  adjustPan?: boolean
+
+  /**
    * Lets the user enable or disable automatic resetScrollToCoords
    *
    * @type {boolean}
