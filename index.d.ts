@@ -43,6 +43,16 @@ interface KeyboardAwareProps {
   }
 
   /**
+   * Soft input keyboard mode: adjustNoop, adjustPan, adjustResize, only work on android
+   *
+   * Default is adjustPan
+   *
+   * @type {string}
+   * @memberof KeyboardAwareProps
+   */
+  softInputMode?: 'adjustNoop' | 'adjustPan' | 'adjustResize'
+
+  /**
    * Lets the user enable or disable automatic resetScrollToCoords
    *
    * @type {boolean}
